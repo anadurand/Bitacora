@@ -9,8 +9,26 @@
     <title>Document</title>
   </head>
   <body>
+    <header class="container text-center">
+      <h1>Flash Bitácora</h1>
+      <p>"Publish anything", just in your browser.</p>
+    </header>
+    <section class="container" id = "publicacion">
 
+    </section>
+    <footer>
+      <button type = "button" class="btn boton-menu glyphicon glyphicon-pencil" data-container="body" data-toggle="popover" data-placement="left" data-popover-content="#menu"></button>
+      <div class="hide contenido" id="menu">
+        <ul class="list-unstyled list-inline menu">
+          <li class="color-celeste"><a href="#"><span class="glyphicon glyphicon-envelope"></span></a></li>
+          <li class="color-blue"><a href="#"><span class="glyphicon glyphicon-picture"></span></a></li>
+          <li class="color-green"><a href="#"><span class="glyphicon glyphicon-calendar"></span></a></li>
+          <li class="color-yellow"><a href="#"><span class="glyphicon glyphicon-film"></span></a></li>
+        </ul>
+      </div>
+    </footer>
     <script src="assets/js/jquery-3.2.1.slim.min.js" charset="utf-8"></script>
+    <script src="assets/js/bootstrap.js" charset="utf-8"></script>
     <script src="assets/js/main.js" charset="utf-8"></script>
   </body>
 </html>
