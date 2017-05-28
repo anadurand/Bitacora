@@ -16,11 +16,21 @@
     <section class="container" id = "publicacion">
 
     </section>
+    <div class="modal fade" id="modalChat" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-body">
+
+          </div>
+          <button type="button" class="btn btn-primary">Publicar</button>
+        </div>
+      </div>
+    </div>
     <footer>
       <button type = "button" class="btn boton-menu glyphicon glyphicon-pencil" data-container="body" data-toggle="popover" data-placement="left" data-popover-content="#menu"></button>
       <div class="hide contenido" id="menu">
         <ul class="list-unstyled list-inline menu">
-          <li class="color-celeste"><a href="#"><span class="glyphicon glyphicon-envelope"></span></a></li>
+          <li class="color-celeste"><a href="#" data-toggle="modal" data-target="#modalChat"><span class="glyphicon glyphicon-envelope"></span></a></li>
           <li class="color-blue"><a href="#"><span class="glyphicon glyphicon-picture"></span></a></li>
           <li class="color-green"><a href="#"><span class="glyphicon glyphicon-calendar"></span></a></li>
           <li class="color-yellow"><a href="#"><span class="glyphicon glyphicon-film"></span></a></li>

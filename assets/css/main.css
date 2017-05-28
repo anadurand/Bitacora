@@ -33,6 +33,10 @@ footer{
   bottom: 25px;
   right: 15px;
 }
+.modal-open .popover{
+  z-index: 0;
+}
+
 .popover .popover-content ul{
   margin-top: 30px;
 }
